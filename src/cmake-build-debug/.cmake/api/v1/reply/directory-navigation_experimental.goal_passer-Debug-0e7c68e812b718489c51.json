@@ -1,0 +1,182 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install",
+			"_catkin_package",
+			"catkin_package"
+		],
+		"files" : 
+		[
+			"/opt/ros/noetic/share/catkin/cmake/custom_install.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/catkin_package.cmake",
+			"navigation_experimental/goal_passer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 102,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 450,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 521,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 529,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 13
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/navigation_experimental/goal_passer/catkin_generated/installspace/goal_passer.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "share/goal_passer/cmake",
+			"paths" : 
+			[
+				"cmake-build-debug/navigation_experimental/goal_passer/catkin_generated/installspace/goal_passerConfig.cmake",
+				"cmake-build-debug/navigation_experimental/goal_passer/catkin_generated/installspace/goal_passerConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "share/goal_passer",
+			"paths" : 
+			[
+				"navigation_experimental/goal_passer/package.xml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"devel/lib/libgoal_passer.so"
+			],
+			"targetId" : "goal_passer::@6e6ff851216819455af5",
+			"targetIndex" : 41,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include/goal_passer",
+			"paths" : 
+			[
+				{
+					"from" : "navigation_experimental/goal_passer/include/goal_passer",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "share/goal_passer",
+			"paths" : 
+			[
+				"navigation_experimental/goal_passer/bgp_plugin.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "navigation_experimental/goal_passer",
+		"source" : "navigation_experimental/goal_passer"
+	}
+}

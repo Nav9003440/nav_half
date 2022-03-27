@@ -1,0 +1,517 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "devel/lib/libsbpl_recovery.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_install",
+			"install",
+			"target_link_libraries",
+			"target_compile_options",
+			"add_definitions",
+			"include",
+			"find_package",
+			"configure_shared_library_build_settings",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"navigation_experimental/sbpl_recovery/CMakeLists.txt",
+			"/opt/ros/noetic/share/catkin/cmake/custom_install.cmake",
+			"/opt/ros/noetic/share/rosconsole/cmake/rosconsole-extras.cmake",
+			"/opt/ros/noetic/share/rosconsole/cmake/rosconsoleConfig.cmake",
+			"/opt/ros/noetic/share/roscpp/cmake/roscppConfig.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/tools/libraries.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/all.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"file" : 5,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 76,
+				"parent" : 7
+			},
+			{
+				"file" : 4,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 197,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 222,
+				"parent" : 11
+			},
+			{
+				"file" : 2,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 12,
+				"parent" : 13
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 8,
+				"line" : 58,
+				"parent" : 15
+			},
+			{
+				"file" : 5,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 20,
+				"parent" : 17
+			},
+			{
+				"file" : 7,
+				"parent" : 18
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 174,
+				"parent" : 19
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 18,
+				"parent" : 20
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-terminate"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 14,
+					"define" : "ROSCONSOLE_BACKEND_LOG4CXX"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "ROS_BUILD_SHARED_LIBS=1"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "ROS_PACKAGE_NAME=\"sbpl_recovery\""
+				},
+				{
+					"define" : "sbpl_recovery_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 23,
+					"path" : "/home/jhonray/SLAM/odomtry/odom_test/src/navigation_experimental/sbpl_recovery/include"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/jhonray/SLAM/odomtry/odom_test/src/cmake-build-debug/devel/include"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/jhonray/SLAM/odomtry/odom_test/src/navigation_experimental/sbpl_lattice_planner/include"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/jhonray/SLAM/odomtry/odom_test/src/navigation_experimental/pose_follower/include"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/opt/ros/noetic/include"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/usr/include/eigen3"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "pose_follower::@4b5eb3d6f1ea794b31e7"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "sbpl_lattice_planner::@8e6db318f6e69759a60e"
+		}
+	],
+	"id" : "sbpl_recovery::@e80860417c9ec8a1de22",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/jhonray/SLAM/odomtry/odom_test/src/cmake-build-debug/devel/lib:/opt/ros/noetic/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "devel/lib/libsbpl_lattice_planner.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libsbpl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "devel/lib/libpose_follower.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/liborocos-kdl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/liborocos-kdl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libbase_local_planner.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libtrajectory_planner_ros.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libcostmap_2d.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/liblayers.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/liblaser_geometry.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libtf.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libclass_loader.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libPocoFoundation.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libdl.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libroslib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/librospack.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpython3.8.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtinyxml2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libvoxel_grid.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libtf2_ros.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libactionlib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libmessage_filters.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libroscpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpthread.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/librosconsole.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/librosconsole_log4cxx.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/librosconsole_backend_interface.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/liblog4cxx.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libxmlrpcpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libtf2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libroscpp_serialization.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/librostime.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/noetic/lib/libcpp_common.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "sbpl_recovery",
+	"nameOnDisk" : "libsbpl_recovery.so",
+	"paths" : 
+	{
+		"build" : "navigation_experimental/sbpl_recovery",
+		"source" : "navigation_experimental/sbpl_recovery"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "navigation_experimental/sbpl_recovery/src/sbpl_recovery.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

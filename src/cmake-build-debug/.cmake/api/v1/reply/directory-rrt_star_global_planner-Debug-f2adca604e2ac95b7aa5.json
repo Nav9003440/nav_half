@@ -1,0 +1,182 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install",
+			"_catkin_package",
+			"catkin_package"
+		],
+		"files" : 
+		[
+			"/opt/ros/noetic/share/catkin/cmake/custom_install.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/catkin_package.cmake",
+			"rrt_star_global_planner/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 102,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 450,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 521,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 529,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 13
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/rrt_star_global_planner/catkin_generated/installspace/rrt_star_global_planner.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "share/rrt_star_global_planner/cmake",
+			"paths" : 
+			[
+				"cmake-build-debug/rrt_star_global_planner/catkin_generated/installspace/rrt_star_global_plannerConfig.cmake",
+				"cmake-build-debug/rrt_star_global_planner/catkin_generated/installspace/rrt_star_global_plannerConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "share/rrt_star_global_planner",
+			"paths" : 
+			[
+				"rrt_star_global_planner/package.xml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"devel/lib/librrt_star_global_planner.so"
+			],
+			"targetId" : "rrt_star_global_planner::@889d42d9a11655412c96",
+			"targetIndex" : 75,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include/rrt_star_global_planner",
+			"paths" : 
+			[
+				{
+					"from" : "rrt_star_global_planner/include/rrt_star_global_planner",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "share/rrt_star_global_planner",
+			"paths" : 
+			[
+				"rrt_star_global_planner/rrt_star_planner_plugin.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "rrt_star_global_planner",
+		"source" : "rrt_star_global_planner"
+	}
+}
